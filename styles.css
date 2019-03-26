@@ -1,0 +1,33 @@
+body{
+  margin: 0;
+  background-color:#336699
+}
+
+.circle {
+  width: 300px;
+  height: 300px;
+  background-image: url('images/uno.jpg');
+  border-radius: 100%;
+  margin: 300px auto 0;
+  position: relative;
+}
+
+.circle:hover .hidden, .circle .hidden:hover{
+  transform:scale(0);
+}
+
+.hidden {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  background-image: url('images/dos.jpg');
+  opacity: 1;
+  transition: all 0.3s ease-out;
+  position: absolute;
+  transform: scale(1);
+
+  color: white;
+  line-height: 300px;
+  text-align: center;
+  font-size: 48px;
+}

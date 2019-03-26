@@ -1,14 +1,14 @@
 body{
   margin: 0;
-  background-color:#336699
+  background-image: url('images/4.jpg')
 }
 
 .circle {
-  width: 300px;
-  height: 300px;
-  background-image: url('images/uno.jpg');
+  width: 500px;
+  height: 500px;
+  background-image: url('images/tres.jpg');
   border-radius: 100%;
-  margin: 300px auto 0;
+  margin: 100px auto 0;
   position: relative;
 }
 
@@ -17,10 +17,10 @@ body{
 }
 
 .hidden {
-  width: 300px;
-  height: 300px;
+  width: 500px;
+  height: 500px;
   border-radius: 100%;
-  background-image: url('images/dos.jpg');
+  background-image: url('images/6.jpg');
   opacity: 1;
   transition: all 0.3s ease-out;
   position: absolute;
